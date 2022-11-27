@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font: normal 15px Arial;
+}
+img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+#sessao-venda{
+    text-align: center;
+}
+
+#sessao-venda h1{
+    margin: 15px;
+}
+
+#itens_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;    
+    margin: 15px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.item{      
+    border: 2px solid #577699;
+    border-radius: 10px;
+
+    width: 285px;
+    height: 480px;
+}
+
+.item h1{
+    font-size: 30px;
+}
+
+#preco span,
+#descript span{
+    font-weight: bold;
+}
